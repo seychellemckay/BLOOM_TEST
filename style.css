@@ -66,7 +66,6 @@ html, body {
 }
 
 
-
 .welcome {
     width: 75%;
     margin: 0 auto;
@@ -83,6 +82,30 @@ html, body {
 
 
 
+.products1 {
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 2rem;
+}
+
+.products2 {
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 2rem;
+}
+    
+
+.about {
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 2rem;
+}
+
+.ingredients {
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 2rem;
+}
 
 /*---Media Queries --*/
 @media (max-width: 992px) {
