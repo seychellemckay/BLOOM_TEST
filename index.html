@@ -16,6 +16,32 @@
     <!-- smooth scrolling -->
         <script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"></script>
     
+    
+    <!-- scroll to top button -->
+    <button onclick="topFunction()" id="backtotop" title="Go to top"> ^ </button>
+
+        <script>
+            var mybutton = document.getElementById("backtotop"); 
+            window.onscroll = function() {scrollFunction()};
+
+            function scrollFunction() {
+              if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                mybutton.style.display = "block";
+              } else {
+                mybutton.style.display = "none";
+              }
+            }
+
+            function topFunction() {
+              document.body.scrollTop = 0;
+              document.documentElement.scrollTop = 0;
+            }
+        </script>
+
+    
+    
+    
+    
 </head>
 <body>
 
@@ -113,9 +139,9 @@
         <div class="container-fluid padding">
 
 
-        <div class="row products1 text-center padding">
+        <div class="row text-center padding" id="threecolumns">
             <div class="col-xs-12 col-md-4">
-                <a href="#">
+            
                 <img src="images/cleanser%20bottle%20mock%20up%2050%25.png" style="width:100%">
                 </a>
                 <h3> Purirfying Day & Night Foaming Cleanser </h3>
@@ -124,7 +150,7 @@
             </div>
 
             <div class="col-xs-12 col-md-4">
-               <a href="#">
+        
                 <img src="images/Serum%20bottle%20mock%20up%2050%25.png" style="width:100%">
                 </a>
                 <h3> Hydrating & Brightening Serum</h3>
@@ -133,7 +159,7 @@
             </div>
 
             <div class="col-xs-12 col-md-4">
-                <a href="#">
+        
                 <img src="images/Scrub%20bottle%20mock%20up%2050%25.png" style="width:100%">
                 </a>
                 <h3> Coconut & Cocoa Body Scrub </h3>
@@ -181,7 +207,10 @@
         <div class="row about padding">
             <div class="col-md-12 col-lg-6">
                 <h1 class="display-4"> About Us...</h1>
-                <p>Bloom's mission is to care for the environment as well as we care for your skin. </p>
+                <p>Bloom's mission is to care for the environment as much as we care for your skin. We seek out the highest quality Organic ingredients from New Zealand and fair trade ingredients from other countries. We blend this with our knowledge of homeopathy, dermatology, and bio-chemistry to create a beautifully organic range to prevent and help acne, cleanse, moisturise, exfoliate and repair. We wish to bring the people and women of New Zealand the joy of looking and feeling great, inspiring them to be bold and beautiful in their everyday lives.
+                    
+                <p>Bloom cares about community. For every 10 product sold we donate 1 product to the nurses at starship hospital and the proceeds that product would have collected to the Starship children cancer foundation. 
+                </p>
 
 
                 <p>Contact us below for any questions or enquires... </p>
@@ -190,7 +219,7 @@
 
             </div>
 
-            <div class="col-md-12 col-lg-6">
+            <div class="col-md-12 col-lg-6 aboutimg">
                 <img src="images/FB%20cover%20copy.jpg" class="img-fluid">
             </div>
         </div>
@@ -213,30 +242,39 @@
     <div class="row ingredients text-center">
         <div class="col-lg-4">
             <div class="card">
-                <img class="card-img-top" src="images/bloom%20circleArtboard%209@400x.png">
+                <img class="card-img-top" src="images/purpleclay.png">
                 <div class="card-body">
-                    <h4 class="card-title"> Purple Brazilian Clay </h4>
-                    <p class="card-text">frvurfrihbfobfho24uhfb24fhr2fh2r hehehehe lololololo eufoi234hbf23ihbdoi2hbjwf</p>
+                    <h2 class="card-title"> Purple Brazilian Clay </h2>
+                    <p class="card-text">
+                        The beautiful soft purple color of this clay is due to high levels of magnesium. Purple clay benefits are mostly anti-aging. Magnesium, after all, helps ensure healthy skin cells, which can make you look younger.
+                        Purple Brazilian clay can also help prevent your skin from absorbing environmental contaminants and impurities. 
+                        Other benefits include: Removes waste, impurities and dead skin cells, reduces skin oiliness, provides firming effect, increases skin elasticity, enhances blood circulation stimulating elastin and collagen production, environmentally friendly, no animal testing.
+                    </p>
                 </div>
             </div>  
         </div>
 
         <div class="col-lg-4">
             <div class="card">
-                <img class="card-img-top" src="images/bloom%20circleArtboard%209@400x.png">
+                <img class="card-img-top" src="images/aloevera.jpeg">
                 <div class="card-body">
-                    <h4 class="card-title"> Purple Brazilian Clay </h4>
-                    <p class="card-text">frvurfrihbfobfho24uhfb24fhr2fh2r hehehehe lololololo eufoi234hbf23ihbdoi2hbjwf</p>
+                    <h2 class="card-title"> Aloe Vera </h2>
+                    <p class="card-text">
+                        Aloe vera is perhaps one of the most widely used herbal remedies for topical skin conditions. This is because the gel-like components of the plant are known to heal the skin from a variety of minor ailments.
+                        In fact, you might have even used aloe in the past for sunburn, minor cuts, or small abrasions. Aloe vera is also a god send for remedying dry skin, Eczema, Psoriasis and inflammatory acne. Due to the anti-inflammatory effects of aloe vera, it helps to treat inflammatory forms of acne, such as pustules and nodules.
+                    </p>
                 </div>
             </div>  
         </div>
 
         <div class="col-lg-4">
             <div class="card">
-                <img class="card-img-top" src="images/bloom%20circleArtboard%209@400x.png">
+                <img class="card-img-top" src="images/teatree.jpg">
                 <div class="card-body">
-                    <h4 class="card-title"> Purple Brazilian Clay </h4>
-                    <p class="card-text">frvurfrihbfobfho24uhfb24fhr2fh2r hehehehe lololololo eufoi234hbf23ihbdoi2hbjwf</p>
+                    <h2 class="card-title"> Tea Tree </h2>
+                    <p class="card-text">
+                        Tea Tree Hydrosol is a powerful disinfectant. Great for your skin if it has acne, eczema or psoriasis. Tea tree fights against many strains of bacteria which makes it a very strong antibacterial agent, perfect for cleansing your skin after a long day. Even better, Tea tree hydrosol is a great astringent. It has powers to tone, firm and tighten skin as well as shrink large pores and reduce excess oils. With its potent anti-inflammatory properties, tea tree reduces inflammation, skin redness and swellings. Tea tree hydrosol also works to fight acne and prevent further breakouts. 
+                    </p>
                 </div>
             </div>  
         </div>
@@ -250,22 +288,28 @@
     <!--- Contact form -->
     <div id='contactcontainer'>
         <div class="containder-fluid padding">
-        <div class="row contact text-center">
-            <div class="col-md-12">
-                 <h1 class="display-4">Contact Us</h1>
-                <p>If you would like to contact us, please fill out the form below...</p>
-            </div>          
-        </div> 
+            
+            <div class="row contact text-center">
+                <div class="col-md-12">
+                     <h1 class="display-4">Contact Us</h1>
+                    <p>If you would like to contact us, please fill out the form below...</p>
+                </div>          
+            </div> 
 
         <div class="row contactbox">
-            <div class="col-md-12">    
-
+            
+            
+                <div class="col-md-12">    
                       <label for="fname">First Name</label>
                         <input type="text" id="fname" name="firstname" placeholder="Your name..">
-
+                </div>
+            
+                <div class="col-md-12"> 
                         <label for="lname">Last Name</label>
                         <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-
+                </div>
+            
+                <div class="col-md-12"> 
                         <label for="Subject">Subject:</label>
                         <select id="Subject" name="Subject">
                             <option value="question">Question</option>
@@ -273,16 +317,21 @@
                             <option value="shipping">Shipping</option> 
                             <option value="other">Other...</option>
                         </select>
-
+                </div>
+            
+                <div class="col-md-12"> 
                         <label for="message">Message</label>
                         <textarea id="message" name="message" placeholder="Type your message here..." style="height:100px"></textarea>
-
+                </div>    
+            
+                <div class="col-md-12"> 
                         <input type="submit" value="Submit" > 
+                </div>
+            
             </div>
         </div>
-    
     </div>
-    </div>
+  
     
     
     <br>
@@ -295,20 +344,24 @@
        
         <div class="row text-center">
             
-            <div class="col-md-3">
+            <div class="col-lg-3 col-md-12 logo">
                 
-                <a class="navbar-brand" href="#"> <img src="images/bloom%20circleArtboard%209@400x.png" style="width:45%"> </a> 
+                <a class="navbar-brand logo" href="#"> <img src="images/bloom%20circleArtboard%209@400x.png" style="width:50%"> </a> 
             </div>    
                 
-            <div class="col-md-3">  
-                <p> Bloom Organic Skincare</p>
+            <div class="col-lg-4 col-md-12 middle">  
+                <h1> Bloom Organic Skincare</h1>
+                <br>
                 <p> 0800 BLOOM SKIN </p>
                 <p> info@bloomorganicskincare.com </p>
                 <p> 192 Wallace Street, Mount Cook, Wellington 6021. New Zealand </p>
             </div>
      
-            <div class="col-md-6 social padding">
+            <div class="col-lg-5 col-md-12 social right padding">
                 <h2> Follow us...</h2>
+            
+                <br>
+                
                 <!-- these links just go to the social media homepages as Bloom is a fictional company --> 
                 <a href="https://www.facebook.com/"> <i class="fab fa-facebook"></i></a>
                 &bull;
