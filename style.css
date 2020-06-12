@@ -15,7 +15,6 @@ html, body {
 
 
 .navbar {
-
 }
 
 .navbar-nav {
@@ -23,9 +22,14 @@ html, body {
     
 }
 
-.nav-link{
-    font-size: 1.1em !important;
+.nav-item a {
+    font-size: 1.1em;
     color: #222;   
+}
+
+.nav-link a {
+    font-size: 1.1em;
+    color: #222; 
 }
 
 
@@ -33,6 +37,10 @@ html, body {
 .carousel-inner img {
     width: 100%;
     height: 100%;
+}
+
+#slides {
+    
 }
 
 /*
@@ -84,6 +92,10 @@ html, body {
     font-size: 2rem;
 }
 
+#threecolumns {
+    
+}
+
 .products2 {
     width: 100%;
     margin: 0 auto;
@@ -94,6 +106,10 @@ html, body {
 
 .products2 h3 {
     font-size: 2rem;
+}
+
+#aboutcontainer {
+    
 }
 
 .about {
@@ -122,6 +138,10 @@ html, body {
 
 }
 
+
+#contactcontainer {
+    
+}
 
 .contact {
     width: 100%;
