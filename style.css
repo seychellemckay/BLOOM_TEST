@@ -7,6 +7,7 @@ pastel pink = #fce6f0
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Open+Sans+Condensed:wght@300&display=swap');
 
 html, body {
+    scroll-behavior: smooth;
     height: 100%;
     width: 100%;
     font-family: 'Open Sans Condensed', sans-serif;
@@ -15,6 +16,12 @@ html, body {
 
 
 .navbar {
+}
+
+@media (min-width: 768px) {
+  #navbarResponsive {
+    display: block;
+  }
 }
 
 .navbar-nav {
@@ -219,6 +226,8 @@ input[type=submit]:hover {
 }
 @media (max-width: 576px) {
   
+    
+    
 }
 
 
