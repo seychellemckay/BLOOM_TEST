@@ -15,7 +15,7 @@ html, body {
 
 
 .navbar {
-    
+
 }
 
 .navbar-nav {
@@ -24,7 +24,8 @@ html, body {
 }
 
 .nav-link{
-    font-size: 1.1em !important
+    font-size: 1.1em !important;
+    color: #222;   
 }
 
 
@@ -67,45 +68,127 @@ html, body {
 
 
 .welcome {
-    width: 75%;
-    margin: 0 auto;
-    padding-top: 2rem;
+    width: 100%;
+    padding: 2rem; 
 }
-
-.welcome hr {
-    border-top: 2px solid #b4b4b4;
-    width: 75%;
-    margin-top: 0.25rem;
-    margin-bottom: 1rem;
-}
-
-
-
 
 .products1 {
-    width: 90%;
+    width: 100%;
     margin: 0 auto;
     padding-top: 2rem;
+    font-size: 1.25rem;
+}
+
+
+.products1 h3 {
+    font-size: 2rem;
 }
 
 .products2 {
-    width: 90%;
+    width: 100%;
     margin: 0 auto;
     padding-top: 2rem;
+    padding-bottom: 2rem;
+    font-size: 1.25rem;
 }
-    
+
+.products2 h3 {
+    font-size: 2rem;
+}
 
 .about {
-    width: 90%;
+    width: 100%;
     margin: 0 auto;
-    padding-top: 2rem;
+    padding: 2rem;
+    font-size: 1.5rem;
+
 }
 
-.ingredients {
-    width: 90%;
+
+.special {
+    width: 100%;
     margin: 0 auto;
+    padding: 1.25rem;
     padding-top: 2rem;
+
 }
+
+
+.ingredients {
+    width: 100%;
+    margin: 0 auto;
+    padding: 2rem;
+    font-size: 1.25rem;
+
+}
+
+
+.contact {
+    width: 100%;
+    margin: 0 auto;
+    padding: 1rem;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 2rem;
+    padding-bottom: 2rem
+
+}
+
+
+.contactbox {
+    width: 75%;
+    margin: 0 auto;
+    padding: 1rem;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 1rem;
+    padding-bottom: 2rem
+
+}
+
+
+input[type=text], select, textarea {
+      width: 100%;
+      padding: 12px;
+      border: 1px solid #222;
+      box-sizing: border-box;
+      margin-top: 6px;
+      margin-bottom: 16px;
+      resize: vertical;
+}
+
+input[type=submit] {
+    background-color: white;
+    color: black;
+    border: 1px solid #222;
+    padding: 12px 20px;
+    cursor: pointer;
+}   
+
+
+input[type=submit]:hover {
+    background-color: #222;
+    color: white;
+    border: 1px solid #fce6f0;
+}
+
+
+
+
+
+.footer {
+    background-color: #222; 
+    color: white;
+    width: 100%;
+    margin: none;
+    font-size: 1.25rem;
+    padding-top: 2rem;
+    
+}
+
+.divider {
+    border-color: white;
+    width: 90%;
+}
+
 
 /*---Media Queries --*/
 @media (max-width: 992px) {
