@@ -89,7 +89,7 @@ html, body {
 }
 
 #shopcontainer {
-    
+    /*need to keep this so btn works*/
 }
 
 .products2 {
@@ -105,7 +105,7 @@ html, body {
 }
 
 #aboutcontainer {
-    
+    /*need to keep this so btn works*/
 }
 
 .about {
@@ -136,6 +136,10 @@ html, body {
     padding: 2rem;
     font-size: 1.25rem;
 
+}
+    
+#contactcontainer {
+    /*need to keep this so btn works*/
 }
 
 .contact {
