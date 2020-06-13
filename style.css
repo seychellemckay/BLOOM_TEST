@@ -19,11 +19,11 @@ html, body {
   #navbarResponsive {
     display: block;
   }
+}
 
 
 .navbar-nav {
     padding-right: 20px;
-    
 }
 
 .nav-item {
@@ -41,35 +41,35 @@ html, body {
     color: #222; 
 }
 
-
 #backtotop {
-  display: none; 
-  position: fixed; 
-  bottom: 20px;
-  right: 30px; 
-  z-index: 99; 
-  border: none; 
-  outline: none; 
-  background-color: rgba(0,0,0,0.35) ; 
-  color: white;
-  cursor: pointer; 
-  padding: 15px; 
-  border-radius: 5px; 
-  font-size: 15px; 
+height: 65px;
+    width: 65px;
+    display: none; 
+    position: fixed; 
+    bottom: 20px;
+    right: 30px; 
+    z-index: 99; 
+    border: none; 
+    outline: none; 
+    background-color: rgba(0,0,0,0.35); 
+    color: white;
+    cursor: pointer; 
+    padding-bottom: 20px; 
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 12px;
+    border-radius: 50%; 
+    font-size: 2em; 
 }
 
 #backtotop:hover {
   background-color: #555;
 }
-    
-
-    
-    
+        
 .carousel-inner img {
     width: 100%;
     height: 100%;
 }
-
 
 .welcome {
     width: 100%;
@@ -82,7 +82,6 @@ html, body {
     padding-top: 2rem;
     font-size: 1.25rem;
 }
-
 
 .products1 h3 {
     font-size: 2rem;
@@ -211,8 +210,8 @@ input[type=submit]:hover {
 
 
 .social a {
-    font-size: 4.5rem;
-    padding: 3rem;
+    font-size: 4rem;
+    padding: 2rem;
 }
 
 
@@ -234,7 +233,6 @@ input[type=submit]:hover {
 
 /*---Media Queries --*/
 @media (max-width: 992px) {
-
   }
 @media (max-width: 768px) {
   
