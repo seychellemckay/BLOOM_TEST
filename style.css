@@ -42,7 +42,7 @@ html, body {
 }
 
 #backtotop {
-height: 65px;
+    height: 65px;
     width: 65px;
     display: none; 
     position: fixed; 
